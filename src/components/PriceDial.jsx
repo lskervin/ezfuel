@@ -24,15 +24,15 @@ function PriceDial({average_prices, selectedFuel, setSelectedFuel, selectedQuant
   useEffect(() => {
   if (average_prices) {
     const regularPrice = average_prices.regular *1.4;
-    const regularDigits = regularPrice.toFixed(2).toString().split('');
+    const regularDigits = (regularPrice.toFixed(2)).toString().split('');
     setRegular(regularPrice);
     setRegularHistory([...regularDigits]);
     const midGradePrice = average_prices.midGrade *1.4;
-    const midGradeDigits = midGradePrice.toFixed(2).toString().split('');
+    const midGradeDigits = (midGradePrice.toFixed(2)).toString().split('');
     setMidGrade(midGradePrice);
     setMidGradeHistory([...midGradeDigits]);
     const premiumPrice = average_prices.premium *1.4;
-    const premiumDigits = premiumPrice.toFixed(2).toString().split('');
+    const premiumDigits = (premiumPrice.toFixed(2)).toString().split('');
     setPremium(premiumPrice);
     setPremiumHistory([...premiumDigits]);
   }
