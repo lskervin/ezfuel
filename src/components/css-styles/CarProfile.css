@@ -1,0 +1,109 @@
+.item {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: calc(100% - calc(4.8rem * 15));
+	padding: 2.8rem;
+	/* margin-bottom: 2.2rem; */
+    top: 650px;
+    margin-left: 700px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 1.7rem;
+	box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+	transform: translateY(-1rem);
+	backdrop-filter: blur(1.5rem);
+    font-size: 14px;
+	transform: translate(-90%, -90%); /* Center the container */
+	position: absolute;
+	height: 98%;
+}
+
+.item:last-child {
+	margin-bottom: 0.5rem;
+}
+
+.item h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	/* height: 2.8rem; */
+	margin-bottom: 0.5rem;
+    font-family: system-ui, sans-serif;
+}
+
+.item figure {
+	width: auto;
+	/* margin-bottom: 1.5rem; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 1.5rem;
+}
+
+.item figure img {
+	height: 220px;
+	display: flex;
+}
+
+
+.item figure:hover + .description,
+.description:hover {
+	opacity: 1;
+}
+
+.item button {
+	display: inline-block;
+	padding: 12px 28px;
+	margin: 10px;
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-image: linear-gradient(to bottom right, #FFD700, #ffA500);
+	border: none;
+	border-radius: 40px;
+	box-shadow: 0px 4px 0px #ffA500;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+.item button:hover {
+	filter: brightness(90%);
+}
+
+.item button:active {
+	filter: brightness(80%);
+}
+
+.price {
+	font-size: 1.1rem;
+	font-weight: bold;
+	/* margin-bottom: 1.5rem; */
+    font-family: system-ui, sans-serif;
+}
+
+/* .special {
+	margin-bottom: 0.5rem;
+} */
+option{
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+}
+
+#fuel-select {
+	padding: 0.8rem 1.2rem;
+	border: solid 1px #efefef;
+	margin-bottom: 1.2rem;
+	outline: none;
+	border-radius: 0.75rem;
+	transition: box-shadow 200ms ease-out;
+    font-family: system-ui, sans-serif;
+}
+
+#fuel-select:focus,
+#fuel-select:active {
+	box-shadow: 0 0 0 0.25rem rgba(43, 153, 255, 0.5);
+}
+
+/* .car-profile-label {
+	margin-bottom: 0.7rem;
+} */

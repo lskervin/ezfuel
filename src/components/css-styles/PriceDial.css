@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+.dialsHolder>div {display:inline-block;}
+.dialsHolder,.selectors{
+	width:450px;
+	margin:0 auto;
+	font: 30px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+    margin-top: 15px;
+	margin-left: -20px;
+    z-index: 1;
+    position:relative;
+	color: #fff;
+	
+}
+.dialsHolder {letter-spacing:-3px;}
+.selectors {letter-spacing:-2px;}
+.selectors>input {
+  margin:0 3px 0 5px;
+  vertical-align:middle;
+  margin-bottom: -100px;
+  
+}
+
+.selectors label {
+	margin-right: 90px;
+}
+
+.position,
+.dial{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1.05em;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width:1em;
+	background-color:#444;
+	border-radius:0.2em;
+	text-align:center;
+	color:#fff;
+	letter-spacing:-1px;
+}
+
+.digit.static{
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);
+	
+	background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #3A3A3A),
+		color-stop(0.5, #444444)
+	);
+}
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+.countDays{ /* display:none !important;*/ }
+.countDiv0{ /* display:none !important;*/ }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+
+.countDiv:before,.divider:before,
+.countDiv:after,.divider:after{
+	position:relative;
+	width:5px;
+	height:5px;
+	/*background-color:#444;*/
+	/*border-radius:50%;*/
+	/*left:50%;*/
+	/*margin-left:-3px;*/
+	bottom:0.5em;
+	/*box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5);*/
+}
+.comma:before{
+	content:',';
+}
+.dollar:before{
+  content:'$';
+}
+
+.countDiv:after{
+	top:0.9em;
+}

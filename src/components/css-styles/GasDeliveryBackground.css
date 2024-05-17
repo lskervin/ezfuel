@@ -1,0 +1,23 @@
+/* GasDeliveryBackground.css */
+
+.background-container {
+    background-color: #FFA500; /* Orange background color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .tagline {
+    color: #333;
+    font-size: 16px;
+  }
+
+  .background-container {
+    /* Set background image */
+    background-image: url('../assets/EZFuelBackgroundImg.png'); /* Reference the imported image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    /* Add additional styles as needed */
+    height: max-content;
+  }
+  

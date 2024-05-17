@@ -1,0 +1,257 @@
+/* Common styles for all headers */
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+/* Common styles for all content */
+.content-track {
+    width: 240%;
+    margin-left: -50px;
+    margin: 3% auto 0 auto;
+    height: 460px;
+    background-color: #F5F5F5;
+}
+
+/* Common styles for content section 1 */
+.content1 {
+    background-color: #ffA500;
+    text-align: center;
+    padding: 2em;
+}
+
+/* Common styles for content section 2 header */
+.content2-header1 {
+    float: left;
+    width: 27%;
+    text-align: center;
+    padding: 1.5em;
+}
+
+/* Common styles for image circles */
+.imgcircle {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #F5998E;
+    position: relative;
+}
+
+.imgcircle img {
+    height: 30px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+}
+
+/* Common styles for line spans */
+span.line {
+    height: 5px;
+    width: 90px;
+    background-color: #F5998E;
+    display: block;
+    position: absolute;
+    top: 28%;
+    left: 45%;
+}
+
+/* Common styles for content section 3 */
+.content3 p {
+    margin-left: -50%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Common styles for process, quality, dispatch, and delivery sections */
+.process, .quality, .dispatch, .delivery {
+    position: relative;
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+/* Responsive styles for all header elements */
+@media (max-width: 320px) {
+    .header {
+        margin-top: 10%;
+    }
+    .header h1 {
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 384px) {
+    .header {
+        margin-top: 9%;
+    }
+}
+
+@media (max-width: 414px) {
+    .header {
+        margin-top: 8%;
+    }
+}
+
+/* Responsive styles for all content elements */
+@media (max-width: 320px) {
+    .content {
+        height: 830px;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+    .content {
+        height: 840px;
+    }
+}
+
+@media (max-width: 384px) {
+    .content {
+        height: 845px;
+    }
+}
+
+@media (max-width: 414px) {
+    .content {
+        width: 93%;
+        height: 885px;
+        margin-top: 9%;
+    }
+}
+
+@media (max-width: 568px) {
+    .content {
+        height: 380px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        height: 395px;
+    }
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 95%;
+    }
+}
+
+@media (max-width: 900px) {
+    .content {
+        width: 85%;
+    }
+}
+
+@media (max-width: 991px) {
+    .content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: 77%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .content {
+        width: 75%;
+    }
+}
+
+/* Responsive styles for content section 1 */
+@media (max-width: 320px) {
+    .content1 {
+        padding: 1em;
+    }
+}
+
+@media (max-width: 568px) {
+    .content1 {
+        padding: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .content1 {
+        padding: 1.2em;
+    }
+}
+
+@media (max-width: 320px) {
+    .content1 h2 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 375px) {
+    .content1 h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 384px) {
+    .content1 h2 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 414px) {
+    .content1 h2 {
+        font-size: 22px;
+    }
+}
+
+/* Responsive styles for content section 2 header */
+@media (max-width: 414px) {
+    .content2-header1 {
+        padding: 0.7em;
+        width: 80%;
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 568px) {
+    .content2-header1 {
+        width: 23%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content2-header1 {
+        width: 24%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content2-header1 {
+        width: 25%;
+    }
+}
+
+@media (max-width: 320px) {
+    .content2-header1 p {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content2-header1 p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 667px) {
+    .content2-header1 p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content2-header1 p {
+        margin: 0 -19%
+    }
+}

@@ -1,0 +1,73 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.dashboard-greeting {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-right: 90px;
+
+}
+
+.dashboard-widgets {
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price-per-gallon,
+.total-header,
+.total-amount,
+.selected-fuel {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.dashboard-image {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-right: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.quantity-select {
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top:-13%;
+  margin-right: 600px;
+  right:55% ;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+.add-to-cart:focus {
+  outline: none;
+}
+
+.fa-gas-pump{
+  position: relative;
+  top: -28%;
+  margin-left: 545px;
+}

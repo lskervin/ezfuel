@@ -1,0 +1,47 @@
+/* Import Font Awesome CSS */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define custom colors */
+:root {
+  --primary-color: #D96AA7;
+  --secondary-color: rgba(255, 166, 0, 0.107);
+  --complimentary-color: #88BFB5;
+  --contrast-color: #F2E527;
+  --light-color: #D2A9D9;
+}
+
+/* Styles for nav links */
+nav a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styles for the navigation */
+nav {
+  position: fixed;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--secondary-color);
+}
+/* .nav-bar{
+  margin-top: 500px;
+} */
+
+/* Animation */
+@keyframes fadeIn {
+  100% { opacity: 1; }
+}

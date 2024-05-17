@@ -1,0 +1,131 @@
+.flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .p-5 {
+    padding: 1.25rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .bg-gray-200 {
+    background-color: #edf2f7;
+  }
+  
+  .border-r {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: #edf2f7;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .p-5 {
+    padding: 1.25rem;
+  }
+  
+  .pointer-events-none {
+    pointer-events: none;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .w-5 {
+    width: 1.5rem;
+  }
+  
+  .fill-gray-500 {
+    fill: #718096;
+  }
+  
+  .transition {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .inputContainer {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .rounded-tl-lg {
+    border-top-left-radius: 0.5rem;
+  }
+  
+  .rounded-bl-lg {
+    border-bottom-left-radius: 0.5rem;
+  }
+  
+  .pl-2 {
+    padding-left: 0.5rem;
+  }
+  
+  .text-base {
+    font-size: 1rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .outline-0 {
+    outline: none;
+  }
+  
+  .max-w-160px {
+    max-width: 10rem;
+  }
+  
+  .bg-blue-500 {
+    background-color: #4299e1;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .rounded-tr-lg {
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .rounded-br-lg {
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .hoverbg-blue-800:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  h2 {
+    color: white;
+    grid-template-rows: 1fr;
+    font-family: system-ui, sans-serif;
+    margin-left: 35px;
+  }
+  
+  

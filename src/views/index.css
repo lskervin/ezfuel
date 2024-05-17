@@ -1,0 +1,48 @@
+main 
+{
+
+    background-color: #ffA500; /* Set your desired background color */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+      background-image: url('https://www.bing.com/images/create/animated-superhero-named-ezfuel-flying-while-carry/1-663a4be107b345b083ade379df47f812?id=KdiK6Pr9jyEJUaxQNMhCxA%3d%3d&view=detailv2&idpp=genimg&thId=OIG1.fuRubx1_Cb0X16cC4M3I&idpbck=1&form=BICREC&idpview=singleimage&idpo=col&thid=OUG.F1B93D1486C9FED959234591BEB178B5https://th.bing.com/th/id/OIG1.fuRubx1_Cb0X16cC4M3I?pid=ImgGn');
+      background-position: center center;
+      background-size:cover ;
+      /* -webkit-background-size:cover ; */
+      height: 100vh;
+      /* width: auto; */
+      /* margin: auto; */
+  
+  
+  }
+  
+  html, body {
+
+    height: 100%;
+}
+
+
+
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
