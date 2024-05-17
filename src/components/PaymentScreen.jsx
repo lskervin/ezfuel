@@ -6,8 +6,8 @@ import { Elements, useStripe, useElements, CardNumberElement, CardCvcElement, Ca
 import './css-styles/PaymentScreen.css'
 
 const apiKey = import.meta.env.VITE_STRIPE_API_KEY;
-const stripePromise = loadStripe(apiKey.toString());
-console.log(apiKey.toString())
+const stripePromise = loadStripe(apiKey);
+
 function PaymentForm({ currentOrder, user }) {
     const navigate = useNavigate();
     const stripe = useStripe();
