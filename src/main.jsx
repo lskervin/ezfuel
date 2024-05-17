@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Signup from './user-auth-screens/Signup';
 import LicensePlateSearch from './license-plate-widget/LicensePlateSearch'
 import CarProfile from './components/CarProfile';
@@ -21,7 +21,7 @@ import TrackOrder from './components/TrackOrder.jsx';
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <App />,
