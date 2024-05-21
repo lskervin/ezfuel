@@ -32,51 +32,51 @@ const router = createHashRouter([
         element: <Home />
       },
       {
-        path: '/sign-in',
+        path: 'sign-in',
         element: <Login />
       },
       {
-        path: '/sign-up',
+        path: 'sign-up',
         element: <Signup/>
       },
       {
-        path: '/carfinder',
+        path: 'carfinder',
         element: <LicensePlateSearch/>
       },
       {
-        path: '/address',
+        path: 'address',
         element: <AddressSearch/>
       },
       {
-        path: '/dash',
+        path: 'dash',
         element: <Dash/>
       },
       {
-        path: '/editprofile',
+        path: 'editprofile',
         element: <EditProfile/>
       },
       {
-        path: '/checkout',
+        path: 'checkout',
         element: <Checkout/>
       },
       {
-        path: '/neworder',
+        path: 'neworder',
         element: <NewOrder/>
       },
       {
-        path: '/car-profile',
+        path: 'car-profile',
         element: <CarProfile/>
       },
       {
-        path: '/payment',
+        path: 'payment',
         element: <PaymentScreen/>
       },
       {
-        path: '/payment-confirmation',
+        path: 'payment-confirmation',
         element: <PaymentSuccess/>
       },
       {
-        path: '/track-order',
+        path: 'track-order',
         element: <TrackOrder/>
       }
     ]
@@ -88,6 +88,5 @@ const router = createHashRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/> 
-
   </React.StrictMode>
-)
+);
