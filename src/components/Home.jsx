@@ -1,6 +1,7 @@
 import React from 'react';
 import './css-styles/Home.css'
 import logo from '../assets/EZFuelLogo.png'
+import {Link} from 'react-router-dom'
 
 
 function Home() {
@@ -10,8 +11,8 @@ function Home() {
         <p className='home-slogan' style={{marginLeft: '20px'}}>Refueling Made EZ</p>
         <img src={logo} style={{ width: '150px', height: 'auto', alignContent: 'center', marginTop:'-60px'}} />
             <div>
-            <a href="/sign-up" className="btn">Sign Up</a>
-            <a href="/sign-in" className="btn">Log In</a>    
+            <Link to="/sign-up" className="btn">Sign Up</Link>
+            <Link to="/sign-in" className="btn">Log In</Link>    
         </div>
     </div>
   );
